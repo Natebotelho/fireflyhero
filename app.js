@@ -423,7 +423,7 @@ class MiniGl {
       }),
     };
   }
-  setSize(e = 640, t = 480) {
+  setSize(e = 6040, t = 480) {
     (this.width = e),
       (this.height = t),
       (this.canvas.width = e),
@@ -519,9 +519,9 @@ class Gradient {
       e(this, "scrollObserver", void 0),
       e(this, "amp", 320),
       e(this, "seed", 5),
-      e(this, "freqX", 14e-5),
-      e(this, "freqY", 29e-5),
-      e(this, "freqDelta", 1e-5),
+      e(this, "freqX", 15e-5),
+      e(this, "freqY", 15e-5),
+      e(this, "freqDelta", 12e-5),
       e(this, "activeColors", [1, 1, 1, 1]),
       e(this, "isMetaKey", !1),
       e(this, "isGradientLegendVisible", !1),
