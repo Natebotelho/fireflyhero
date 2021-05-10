@@ -730,7 +730,7 @@ class Gradient {
               value: 11 + 0.3 * e,
             }),
             noiseFlow: new this.minigl.Uniform({
-              value: 6.5 + 0.3 * e,
+              value: 8 + 0.3 * e,
             }),
             noiseSeed: new this.minigl.Uniform({
               value: this.seed + 10 * e,
